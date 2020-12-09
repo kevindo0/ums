@@ -1,0 +1,17 @@
+[{
+    "title": "1号桌子",
+    "useId": -1,
+    "items": [{
+        "id": 0,
+        "objname": "破木桌",
+        "image": "Assets/ArtRes/Images/Desk/Hall_Desk_Level1.png",
+        "isBuy": true,
+        "money": 200
+    }, {
+        "id": 1,
+        "objname": "简陋桌",
+        "image": "Assets/ArtRes/Images/Desk/Hall_Desk_Level2.png",
+        "isBuy": false,
+        "money": 2000
+    }]
+}]
