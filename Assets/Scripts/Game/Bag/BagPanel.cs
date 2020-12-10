@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class BagPanel : MonoBehaviour
 {
     public static int topTitle = 0; // 记录点击上部三个按钮的哪一个
+    private static int oldTopTitle;
 
     private List<BagData> datas;
     private List<DecorateData> decorateDataes;
@@ -17,12 +18,32 @@ public class BagPanel : MonoBehaviour
 
     void Start()
     {
-        switch (topTitle) {
+        TitleCheck();
+    }
+
+    public void TitleSelect(int selected)
+    {
+        if (selected != oldTopTitle)
+        {
+            topTitle = selected;
+            colorChange();
+            TitleCheck();
+        }
+    }
+
+    public void TitleCheck()
+    {
+        oldTopTitle = topTitle;
+        destroyContent();
+        switch (topTitle)
+        {
             case 1:
                 datas = BagMgr.Instance.InitItemsInfo();
                 count = datas.Count;
                 break;
             case 2:
+                decorateDataes = BagMgr.Instance.InitDecorateInfo();
+                count = decorateDataes.Count;
                 break;
             default:
                 decorateDataes = BagMgr.Instance.InitDecorateInfo();
@@ -30,11 +51,6 @@ public class BagPanel : MonoBehaviour
                 break;
         }
         CheckShowOrHide();
-    }
-
-    void Update()
-    {
-        
     }
 
     public void Active(bool isAcitve)
@@ -47,7 +63,7 @@ public class BagPanel : MonoBehaviour
         int minIndex = (int)(content.anchoredPosition.y / 190) * 3;
         int maxIndex = (int)((content.anchoredPosition.y + viewPortH) / 190) * 3 + 2;
         //Debug.Log(minIndex + ":" + maxIndex);
-        for(int i = minIndex; i <= maxIndex; i++)
+        for (int i = minIndex; i <= maxIndex; i++)
         {
             if (i >= count)
             {
@@ -82,5 +98,31 @@ public class BagPanel : MonoBehaviour
         obj.transform.SetParent(content);
         obj.transform.localScale = Vector3.one;
         obj.transform.localPosition = new Vector3(i + 280, -i * 220 - 120, 0);
+    }
+
+    private void destroyContent()
+    {
+        for(int i = 0; i < content.childCount; ++i)
+        {
+            Destroy(content.GetChild(i).gameObject);
+        }
+    }
+
+    private void colorChange()
+    {
+        Transform bg = gameObject.transform.GetChild(0);
+        Transform top = bg.transform.GetChild(0);
+        for (int i = 0; i < top.childCount; i++)
+        {
+            Color color;
+            if(topTitle == i)
+            {
+                color = new Color32(31, 32, 43, 255);
+            } else
+            {
+                color = new Color32(218, 86, 136, 255);
+            }
+            top.GetChild(i).transform.GetComponent<Image>().color = color;
+        }
     }
 }

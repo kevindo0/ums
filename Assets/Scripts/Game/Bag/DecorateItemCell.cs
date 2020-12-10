@@ -27,7 +27,6 @@ public class DecorateItemCell : MonoBehaviour
                     break;
                 case "Bottom":
                     ChangeActive(child.transform, data, userId);
-                    Debug.Log("child:" + child.childCount);
                     break;
             }
         }

@@ -72,10 +72,16 @@
     <Compile Include="Assets\Scripts\Game\Bag\DecorateItemCell.cs" />
     <Compile Include="Assets\Scripts\Project\CommonBase.cs" />
     <Compile Include="Assets\Scripts\Project\FileMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonAutoMono.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonBase.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonMono.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonTest.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Cache\CacheMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\CanvasMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\PanelBase.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\TestPannel.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\UIMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\UITest.cs" />
     <Compile Include="Assets\Scripts\Test\DelyPush.cs" />
     <Compile Include="Assets\Scripts\Test\Test.cs" />
     <Reference Include="UnityEngine">

@@ -4,23 +4,34 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        //SingletonTest.Instance.GameOver();
+        Debug.Log(8888);
+        Transform result;
+
+        for (int i = 1; i < 5; i++)
+        {
+            string sph;
+
+            sph = "s" + i.ToString();
+            result = gameObject.transform.Find(sph);
+
+            if (result)
+            {
+                Debug.Log("Found: " + sph);
+            }
+            else
+            {
+                Debug.Log("Did not find: " + sph);
+            }
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
             //CacheMgr.Instance.Pop("Prefabs/Sprite");
         }
-    }
-
-    public void PlayTest()
-    {
-        Debug.Log("Play test");
     }
 }
