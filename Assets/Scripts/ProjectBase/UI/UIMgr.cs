@@ -9,7 +9,6 @@ public class UIMgr<T> : SingletonBase<UIMgr<T>> where T: PanelBase
 
     public void ShowPanel(string prefabpath, UI_Layer layer)
     {
-        Debug.Log("panel:" + prefabpath);
         if(_panel.ContainsKey(prefabpath))
         {
             _panel[prefabpath].ShowMe();
@@ -34,7 +33,6 @@ public class UIMgr<T> : SingletonBase<UIMgr<T>> where T: PanelBase
 
     public void HidePanel(string prefabpath)
     {
-        Debug.Log("hide");
         if(_panel.ContainsKey(prefabpath))
         {
             _panel[prefabpath].HideMe();

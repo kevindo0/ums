@@ -38,7 +38,6 @@ public abstract class PanelBase : MonoBehaviour
         {
             for (int i = 0; i < uiDic[name].Count; i++)
             {
-                Debug.Log(uiDic[name][i].name);
                 if (uiDic[name][i] is T)
                     return uiDic[name][i] as T;
             }

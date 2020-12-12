@@ -4,22 +4,16 @@ using UnityEngine;
 
 public class UITest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
-            UIMgr<TestPannel>.Instance.ShowPanel("TestPanel", UI_Layer.BOT);
+            EventCenter.Instance.Trigger("main");
         }
         if(Input.GetMouseButtonDown(1))
         {
-            UIMgr<TestPannel>.Instance.HidePanel("TestPanel");
+            EventCenter.Instance.Trigger<string>("mains", "good");
         }
     }
 
