@@ -27,4 +27,3 @@ public class EventInfo: IEventInfo
         actions += action;
     }
 }
-

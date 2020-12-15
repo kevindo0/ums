@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Game\Bag\DecorateItem.cs" />
     <Compile Include="Assets\Scripts\Game\Bag\DecorateItemCell.cs" />
     <Compile Include="Assets\Scripts\Game\Mainpanel.cs" />
+    <Compile Include="Assets\Scripts\Game\Player.cs" />
     <Compile Include="Assets\Scripts\Project\CommonBase.cs" />
     <Compile Include="Assets\Scripts\Project\FileMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonAutoMono.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\UI\TestPannel.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\UIMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\UITest.cs" />
+    <Compile Include="Assets\Scripts\TTest\P1Animation.cs" />
     <Compile Include="Assets\Scripts\Test\DelyPush.cs" />
     <Compile Include="Assets\Scripts\Test\Test.cs" />
     <Reference Include="UnityEngine">
@@ -273,6 +275,9 @@
     </Reference>
     <Reference Include="LitJson">
       <HintPath>/Users/duchao/mygit/ums/Assets/Plugins/LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>/Users/duchao/mygit/ums/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.15f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -713,7 +718,20 @@
       <HintPath>/Users/duchao/mygit/ums/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{6C811CFA-63BE-DBF1-A045-ACE9007C75BC}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{8367A892-D1F9-E592-BFC9-CEBAB41BD0E8}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{6FDFF5D4-00E1-D76E-B8C3-A496C33CB22B}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
