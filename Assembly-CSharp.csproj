@@ -64,16 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Game\Bag\BagItem.cs" />
-    <Compile Include="Assets\Scripts\Game\Bag\BagMgr.cs" />
-    <Compile Include="Assets\Scripts\Game\Bag\BagPanel.cs" />
-    <Compile Include="Assets\Scripts\Game\Bag\DecorateData.cs" />
-    <Compile Include="Assets\Scripts\Game\Bag\DecorateItem.cs" />
-    <Compile Include="Assets\Scripts\Game\Bag\DecorateItemCell.cs" />
+    <Compile Include="Assets\Scripts\Data\PlayerData.cs" />
     <Compile Include="Assets\Scripts\Game\Mainpanel.cs" />
     <Compile Include="Assets\Scripts\Game\Player.cs" />
     <Compile Include="Assets\Scripts\Project\CommonBase.cs" />
-    <Compile Include="Assets\Scripts\Project\FileMgr.cs" />
+    <Compile Include="Assets\Scripts\Project\File\GameFileMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonAutoMono.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonBase.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonMono.cs" />
@@ -82,14 +77,18 @@
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventInfo.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Event\TestEventCenter.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\File\FileSave.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\File\PersistentSave.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\File\StreamimgSave.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\CanvasMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\PanelBase.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\TestPannel.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\UI\UGUICheck.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\UIMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\UITest.cs" />
     <Compile Include="Assets\Scripts\TTest\P1Animation.cs" />
-    <Compile Include="Assets\Scripts\Test\DelyPush.cs" />
-    <Compile Include="Assets\Scripts\Test\Test.cs" />
+    <Compile Include="Assets\Scripts\TTest\SpriteEvent.cs" />
+    <Compile Include="Assets\Scripts\TTest\TestScript.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.15f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
