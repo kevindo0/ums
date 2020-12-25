@@ -32,6 +32,20 @@ public class GameFileMgr
 
         return ps.LoadByBin<T>();
     }
+    // 只是读取配置文件，不修改
+    public T DecodeOnly<T>()
+    {
+        string path = Path.Combine(Application.persistentDataPath, _fileName);
+        StreamimgSave ss = new StreamimgSave(_fileName);
+        return ss.LoadbyJson<T>();
+    }
+
+    // 数据保存
+    public bool Encode<T>(T s)
+    {
+        PersistentSave ps = new PersistentSave(_fileName);
+        return ps.SaveByBin<T>(s);
+    }
 }
 
 /// Usage:
