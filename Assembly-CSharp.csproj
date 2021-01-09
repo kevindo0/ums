@@ -65,7 +65,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Data\PlayerData.cs" />
-    <Compile Include="Assets\Scripts\Game\Mainpanel.cs" />
     <Compile Include="Assets\Scripts\Game\Player.cs" />
     <Compile Include="Assets\Scripts\Project\CommonBase.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonAutoMono.cs" />
@@ -92,9 +91,6 @@
     <Compile Include="Assets\Scripts\ProjectBase\UI\UGUICheck.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\UIMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\UITest.cs" />
-    <Compile Include="Assets\Scripts\TTest\P1Animation.cs" />
-    <Compile Include="Assets\Scripts\TTest\SpriteEvent.cs" />
-    <Compile Include="Assets\Scripts\TTest\TestScript.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.16f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
