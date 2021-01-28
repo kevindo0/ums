@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FlashingBySwitch
-  m_Shader: {fileID: -6465566751694194690, guid: 0ebae2d2fff8d4817b3c71a2d120639f,
+  m_Name: RecRoundMat
+  m_Shader: {fileID: -6465566751694194690, guid: 815b6742a92b5447aaa7a2b043d74615,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -24,8 +24,5 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Switch: 0.36
-    m_Colors:
-    - _FirstColor: {r: 0.2071467, g: 0.8962264, b: 0.2726862, a: 0}
-    - _SecondColor: {r: 0.9056604, g: 0.8727143, b: 0.09825563, a: 0}
+    m_Floats: []
+    m_Colors: []
