@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: artres
+  m_EditorClassIdentifier: 
+  m_GroupName: artres
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 248778800bc964fd1a67ee4f0bb91753
+  m_SerializeEntries:
+  - m_GUID: 8a8d0fa1e6fa24d77961377c1116a93d
+    m_Address: Assets/ArtRes/Images/Close/CloseButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2740800f927424b35902512f35be1e0e
+    m_Address: Assets/ArtRes/Images/Desk/Hall_Desk_Level4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 78e807d1eeabb45f1814bc01ccd8dc49
+    m_Address: Assets/ArtRes/Images/Desk/Hall_Desk_Level5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 57a29e58fad0349e9a5a1955f70088f2
+    m_Address: Assets/ArtRes/Images/Desk/Hall_Desk_Level6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 64add9fdf683b4be99d6cc6095baa3d0
+    m_Address: Assets/ArtRes/Images/Desk/Hall_Desk_Level7.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5f610825c162e4c379cbea385c40d379
+    m_Address: Assets/ArtRes/Images/Desk/Hall_Desk_Level8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1d8bed0eb1806491d8b9ac55a86929d2
+    m_Address: Assets/ArtRes/Images/Desk/Hall_Desk_Level9.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: da94da5cec64c46fbb7b2779cd5b3ee0
+    m_Address: Assets/ArtRes/Images/Desk/Hall_Desk_Level10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3baa0d55c5e9b435fbccaf8df27edcc2
+    m_Address: Assets/ArtRes/Images/Games/Game_1001_Tetris.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e4655a8911c944b8083daf3302fa72d5
+    m_Address: Assets/ArtRes/Images/Games/Game_1002_Mine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f00c8ad3653e2438c8efcc1bf570ac21
+    m_Address: Assets/ArtRes/Images/Games/Game_1003_Poker.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 93140d25be7cc4d60a4678603862c834
+    m_Address: Assets/ArtRes/Images/Games/Game_1004_MagicTower.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 52b0b87782615440391ebca3d4b311f1
+    m_Address: Assets/ArtRes/Images/Games/Game_1005_XuanYuanJian.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4aaafc03df61f4505a3a4ee6a5d4c046
+    m_Address: Assets/ArtRes/Images/Games/Game_1006_CyberFront.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 16bff634e2f68406ca2f34d7fb08ccfa
+    m_Address: Assets/ArtRes/Images/Games/Game_1007_PvZ.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 691767a4e071a46fb8f4206761be519f
+    m_Address: Assets/ArtRes/Images/Games/Game_1008_XianJian.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 821f0dc335fab41c4b135617ff3abb88
+    m_Address: Assets/ArtRes/Images/Games/Game_1009_MaoXianDao.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ea5c1b18a8d6b4670a060962ea1eadcd
+    m_Address: Assets/ArtRes/Images/Games/Game_1010_PacMan.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b489ef676529d430da1075d56b2ecf1c
+    m_Address: Assets/ArtRes/Images/Games/Game_1011_JingWuTuan.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6482d81ac0edb44dbb1726ee6b9f553d
+    m_Address: Assets/ArtRes/Images/Games/Game_1012_MetalSlug.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 81bd37287cb9a4c11bd7dc29b00fae15
+    m_Address: Assets/ArtRes/Images/Games/Game_1013_AoShiSanGuo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 238e6a09582f04a65899cf05f208a239
+    m_Address: Assets/ArtRes/Images/Games/Game_1014_UnchartedWaters.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3b68cc410065c41b0ab8b68ccac4a6cc
+    m_Address: Assets/ArtRes/Images/Lock/Menu_Lock.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ff3d63111c3a8406a9d30e368c9e6a37
+    m_Address: Assets/ArtRes/Images/Money/Money.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a5bf84495668d422b92d38f3b0383112
+    m_Address: Assets/ArtRes/Images/Money/Money_Shadow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 256c541813137489ba91d9fedd756b9a
+    m_Address: Assets/ArtRes/Images/Person/cashier.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a29dd240a444f4ad6971cbf658dc402a
+    m_Address: Assets/ArtRes/Images/Person/rocker.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8bdf2737bcf724e01b17c741166dfb92
+    m_Address: Assets/ArtRes/Images/Person/role01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6383785d6015c42848699e7fc90bcadf
+    m_Address: Assets/ArtRes/Images/WechatIMG67.jpeg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 48161ea600bef4f58a9d929a5753ad31
+    m_Address: Assets/ArtRes/window_bg_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4fadec4c30b9e41faa15d0fbb2a2b6c0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b910036bc46b34d5096e85c14ed49632, type: 2}
+    - {fileID: 11400000, guid: b42a23ae8ba6346579bf7a84c776fb15, type: 2}

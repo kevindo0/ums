@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: desk
+  m_EditorClassIdentifier: 
+  m_GroupName: desk
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0c6284588b1a94c259d9a4822abc824a
+  m_SerializeEntries:
+  - m_GUID: f87a858f291324d2298e8ab93fbeadb4
+    m_Address: Desk_Hall_Desk_Level1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: f87a858f291324d2298e8ab93fbeadb4, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: f87a858f291324d2298e8ab93fbeadb4, type: 3}
+  - m_GUID: b11d65b930ea0414eb8a3cdaf7ea4ec8
+    m_Address: Desk_Hall_Desk_Level2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fd956a73afa2a4a07a2893dc2959f868
+    m_Address: Desk_Hall_Desk_Level3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4fadec4c30b9e41faa15d0fbb2a2b6c0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d6308f3f71bf94c31817ba0b7c91dd98, type: 2}
+    - {fileID: 11400000, guid: 8249819f9cfd140cfad27bdf6f485718, type: 2}
